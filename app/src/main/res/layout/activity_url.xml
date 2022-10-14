@@ -5,26 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".UrlActivity">
 
-    <TextView
-        android:id="@+id/urlTv"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/urlEt"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://www.google.com/"
-        android:textSize="20sp"
+        android:hint="99768-0070"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
         android:id="@+id/entrarUrlBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Entrar URL"
+        android:text="Confirmar URL"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/urlTv"/>
+        app:layout_constraintTop_toBottomOf="@+id/urlEt"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
