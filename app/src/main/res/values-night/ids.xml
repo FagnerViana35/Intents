@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dialMi" type="id" />
+    <item name="callMi" type="id" />
+    <item name="pickMi" type="id" />
+    <item name="chooserMi" type="id" />
+</resources>
