@@ -89,7 +89,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
-            //abre navegador com a Url especificada
             R.id.viewMi -> {
                 val url = Uri.parse(amb.urlTv.text.toString())
                 val navegadorIntent = Intent(ACTION_VIEW, url)
